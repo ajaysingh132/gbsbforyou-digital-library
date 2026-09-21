@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ajaysingh132.github.io/gbsbforyou-digital-library/sitemap.xml
