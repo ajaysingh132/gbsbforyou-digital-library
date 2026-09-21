@@ -1,0 +1,12 @@
+{
+  "name": "GBSBFORYOU Digital Library",
+  "short_name": "GBSBFORYOU Library",
+  "description": "GBSBFORYOU Digital Library — Hindi and English eBooks, research books and publications.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fff8ef",
+  "theme_color": "#8b4513",
+  "orientation": "portrait",
+  "lang": "hi",
+  "icons": []
+}
