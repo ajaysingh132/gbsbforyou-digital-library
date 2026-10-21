@@ -97,3 +97,14 @@ document.addEventListener("DOMContentLoaded", () => {
     navigator.serviceWorker.register("./service-worker.js").catch(error => console.error("Service Worker Error:", error));
   }
 });
+
+
+// Backward-compatible functions used by the home page and older page templates.
+window.GBSB = window.GBSB || {};
+window.GBSB.renderFeatured = async function(targetId) {
+  const container = document.getElementById(targetId || "featuredGrid");
+  if (!container) return;
+  const books = await loadBooks();
+  container.innerHTML = books.slice(0, 6).map(bookCard).join("");
+};
+window.GBSB.renderBook = renderBookDetail;
