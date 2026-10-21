@@ -1,4 +1,4 @@
-const CACHE_NAME = "gbsbforyou-library-v1";
+const CACHE_NAME = "gbsbforyou-library-v2";
 
 const CORE_FILES = [
   "./",
